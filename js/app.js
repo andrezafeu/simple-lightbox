@@ -13,3 +13,7 @@ $("#image-gallery-js a").click(function(event){
 	$image.attr("src", imageLocation);
 	$overlay.show();
 });
+
+$overlay.click(function(){
+	$overlay.hide();
+});
